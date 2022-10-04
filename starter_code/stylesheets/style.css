@@ -1,3 +1,293 @@
+
+nav {
+    background-color: #540B51;
+    display: flex;
+    padding: 3px;
+}
+
+.largeImages {
+    width: 90%;
+}
+
+.navButtons {
+    display: flex;
+    
+}
+
+.navButtons button {
+    background-color: #540B51;
+    border-style: none; 
+}
+
+.slackLogo {
+    width: 30%;
+}
+
+header {
+    background-color: #540B51;
+}
+
+header > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
+
+header h1,p {
+    text-align: center;
+    color: white;
+}
+
+header span1 {
+    color: #ECB12F;
+    font-weight: bold;
+}
+
+.imageGoogle {
+    width: 32px;
+    background-color: white;
+    border-radius: 8%;
+}
+
+.divHeaderButtons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.divHeaderButtons button {
+    width: 90%;
+    margin: 5px;
+    height: 20%;
+}
+
+.buttonSignUp {
+    color: #540B51;
+    padding: 12px;
+    font-weight: bold;
+    font-variant:small-caps;
+}
+
+.buttonGoogle {
+    border-style: none;
+    background-color: #4285F4;
+    font-weight: bold; 
+    font-variant:small-caps;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 5px;
+    
+}
+
+.buttonGoogle span{
+    padding-left: 65px;
+    color: white;
+}
+
+.logoair {
+    width: 30%;
+}
+
+.logoUber {
+    width: 20%;
+}
+.logoTarget{
+    width: 12%;
+}
+
+.logoNewYork {
+    width: 50%;
+}
+.logoNasa{
+    width: 20%;
+}
+
+.logoSpotify {
+    width: 30%
+}
+
+.sectionAllCompanies {
+    display: flex;
+    flex-direction: column;
+    background-color: #F3EAE2;
+    padding-bottom: 60px;
+}
+
+.sectionAllCompanies div p {
+    color: black;
+    font-weight: bold;
+}
+
+.logos {
+    display: flex;
+    flex-direction: column;
+}
+
+.logos div {
+    display: flex;
+    justify-content: center;
+    
+}
+
+/* Section 2 */
+
+.section2 {
+    background-color: #F3EAE2;
+    padding-bottom: 60px;
+}
+
+.section2 div:last-child {
+    padding-left: 10px; 
+}
+
+.textSection2 p {
+    color: black;
+    text-align: left;
+}
+
+.textSection2 a {
+    text-decoration: none;
+    color: #4285F4;
+    font-weight: 600;
+}
+
+/* section 3 */
+
+.section3 {
+    background-color: #F3EAE2;
+    padding-bottom: 60px;
+    padding-left: 10px;
+}
+
+.section3 p {
+    color: black;
+    text-align: left;
+}
+
+.section3 a {
+    text-decoration: none;
+    color: #4285F4;
+    font-weight: 600;   
+}
+
+/* section 4 */
+
+.section4 {
+    background-color: #F3EAE2;
+    padding-bottom: 40px;
+}
+
+.textFieldSection4 {
+    padding-left: 10px;
+}
+
+.section4 p {
+    color: black;
+    text-align: left;
+}
+
+.section4 a {
+    text-decoration: none;
+    color: #4285F4;
+    font-weight: 600;   
+}
+
+/* section 5 */
+
+.section5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    background-color: white;
+}
+
+.textTopSection5 {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.textTopSection5 p {
+    color: black;
+}
+
+.textTopSection5 h3 {
+    font-size: 1.8rem;
+    margin-bottom: 0;
+}
+
+.divButtons {
+    display: flex;
+    flex-direction: column;
+}
+
+.buttonMeet {
+    color: white;
+    border-style: none;
+    border-radius: 2px;
+    background-color: #540B51;
+    padding: 15px 90px 15px 90px;
+    font-variant: small-caps;
+    margin-bottom: 10px;
+}
+
+.buttonTalk {
+    color: #540B51;
+    border-style: none;
+    border: 1px solid #540B51;
+    background-color: white;
+    padding: 15px 90px 15px 90px;
+    border-radius: 2px;
+}
+
+.section5 ul {
+    list-style: none;
+
+}
+
+.section5 ul li span {
+    color: #540B51;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.textUnderPercentage {
+    color: black;
+    font-weight: bold;
+}
+
+/* section 5 */
+
+.section6 {
+    background-color: #540B51;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 100px;
+    
+    border-bottom-left-radius: 50% 30%;
+    border-bottom-right-radius: 50% 30%;
+}
+
+.buttonsSection6 {
+    display: flex;
+    flex-direction: column;
+}
+
+.buttonTry {
+    
+}
+
+
+
+
+
+
 /*
 background purple: #540B51
 background ivory: #F3EAE2

@@ -19,9 +19,9 @@
 <body>
   <nav>
     <div>
-      <img src="./images/slack-logo.png" alt="Slack logo" />
+      <img class="slackLogo" src="./images/slack-logo.png" alt="Slack logo" />
 
-      <ul>
+      <ul hidden>
         <li>
           <a href="#">Product</a>
         </li>
@@ -37,7 +37,7 @@
       </ul>
     </div>
 
-    <div>
+    <div class="navButtons">
       <button>
         <img src="./images/icon-search.png" alt="Search icon">
       </button>
@@ -59,15 +59,16 @@
 
   <header>
     <div>
-      <h1>Great teamwork starts with a digital HQ</h1>
+      <h1>Great teamwork <br>starts 
+      with a digital <br>HQ</h1>
 
-      <p>Slack is free to try for as long as you'd like.</p>
+      <p><span1>Slack is free to try</span1> for as long as you'd like.</p>
 
-      <div>
-        <button>Sign up with email</button>
+      <div class="divHeaderButtons">
+        <button class="buttonSignUp">Sign up with email</button>
 
-        <button>
-          <img src="./images/logo-google.png" alt="Google logo" />
+        <button class="buttonGoogle">
+          <img class="imageGoogle" src="./images/logo-google.png" alt="Google logo" />
           <span>Sign up with Google</span>
         </button>
       </div>
@@ -75,31 +76,37 @@
     </div>
 
     <div>
-      <img src="./images/hero-product-ui.png" alt="Slack app screenshot" />
+      <img class="largeImages" src="./images/hero-product-ui.png" alt="Slack app screenshot" />
     </div>
   </header>
 
   <main>
-    <section>
-      <p>Trusted by companies all over the world</p>
+    <section class="sectionAllCompanies">
+      <div><p>Trusted by companies all over the world</p></div>
+      
 
-      <div>
-        <img src="./images/logo-airbnb.png" alt="Airbnb logo" />
-        <img src="./images/logo-nasa.png" alt="NASA logo" />
-        <img src="./images/logo-uber.png" alt="Uber logo" />
-        <img src="./images/logo-target.png" alt="Target logo" />
-        <img src="./images/logo-nyt.png" alt="New York Times logo" />
-        <img src="./images/logo-spotify.png" alt="Spotify logo" />
+      <div class="logos">
+        <div class="test">
+          <img class="logoair" src="./images/logo-airbnb.png" alt="Airbnb logo" />
+          <img class="logoNasa" src="./images/logo-nasa.png" alt="NASA logo" />
+          <img class="logoUber" src="./images/logo-uber.png" alt="Uber logo" />
+          <img class="logoTarget" src="./images/logo-target.png" alt="Target logo" />
+        </div>
+        <div>
+          
+          <img class="logoNewYork" src="./images/logo-nyt.png" alt="New York Times logo" />
+          <img class="logoSpotify" src="./images/logo-spotify.png" alt="Spotify logo" />
+        </div>
       </div>
 
     </section>
 
-    <section>
+    <section class="section2">
       <div>
-        <img src="./images/connectedness-mobile.png" alt="connectedness" />
+        <img class="largeImages" src="./images/connectedness-mobile.png" alt="connectedness" />
       </div>
 
-      <div>
+      <div class="textSection2">
         <h2>Bring your team together</h2>
 
         <p>
@@ -108,14 +115,18 @@
         </p>
 
         <a href="#">
-          <span>Learn more about channels</span>
+          <span>Learn more about channels &#8594;</span>
         </a>
       </div>
     </section>
 
-    <section>
+    <section class="section3">
       <div>
-        <h2>Choose how you want to work</h2>
+        <img class="largeImages" src="./images/flexibility-mobile.png" alt="flexibility" />
+      </div>
+
+      <div>
+        <h2>Choose how you want to<br> work</h2>
         <p>
           In Slack, you’ve got all the flexibility to work when, where and how it’s best for you. You can easily chat,
           send
@@ -123,75 +134,80 @@
         </p>
 
         <a href="#">
-          <span>Learn more about flexible communication</span>
+          <span>Learn more about flexible communication &#8594;</span>
         </a>
       </div>
 
-      <div>
-        <img src="./images/flexibility-mobile.png" alt="flexibility" />
-      </div>
+      
     </section>
 
-    <section>
+    <section class="section4">
       <div>
-        <img src="./images/speed-mobile.png" alt="speed" />
+        <img class="largeImages" src="./images/speed-mobile.png" alt="speed" />
       </div>
 
-      <div>
-        <h2>Move faster with your tools in one place</h2>
+      <div class="textFieldSection4">
+        <h2>Move faster with your tools <br> in one place</h2>
         <p>
           With your other work apps connected to Slack, you can work faster by switching tabs less. And with powerful
           tools like Workflow Builder, you can automate away routine tasks.
         </p>
 
         <a href="#">
-          <span>Learn more about the Slack platform</span>
+          <span>Learn more about the Slack platform &#8594; </span>
         </a>
       </div>
     </section>
 
 
-    <section>
-      <h3>Teams large and small rely on Slack</h3>
-      <p>Slack securely scales up to support collaboration at the world’s biggest companies.</p>
+    <section class="section5">
 
-      <div>
-        <button>Meet Slack for enterprise</button>
-        <button>Talk to sales</button>
+      <div class="textTopSection5">
+        <h3>Teams large and small <br> rely on Slack</h3>
+        <p>Slack securely scales up to support<br> collaboration at the world’s biggest companies.</p>
+      </div>
+
+      <div class="divButtons">
+        <button class="buttonMeet">Meet Slack for enterprise</button>
+        <button class="buttonTalk">Talk to sales</button>
       </div>
 
       <ul>
         <li>
           <p><span>85%</span></p>
-          <p>
-            of users say Slack has improved communication
+          <p class="textUnderPercentage">
+            of users say Slack has <br> improved <br> communication
             <sup>*</sup>
           </p>
         </li>
 
         <li>
           <p><span>86%</span></p>
-          <p>
-            feel their ability to work remotely has improved has improved
+          <p class="textUnderPercentage">
+            feel their ability to work <br> remotely has improved 
             <sup>*</sup>
           </p>
         </li>
 
         <li>
           <p><span>88%</span></p>
-          <p>
-            feel more connected to their teams*
+          <p class="textUnderPercentage">
+            feel more connected to <br> their teams*
             <sup>*</sup>
           </p>
         </li>
       </ul>
+
     </section>
 
-    <section>
-      <h3>Welcome to your new digital HQ</h3>
+    <section class="section6">
+      <div><h3>Welcome to your new digital HQ</h3></div>
+      
+      <div class="buttonsSection6">
+        <button class="buttonTry">Try for free</button>
+        <button>Talk to sales</button>
+      </div>
 
-      <button>Try for free</button>
-      <button>Talk to sales</button>
     </section>
 
   </main>
